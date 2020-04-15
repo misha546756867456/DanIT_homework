@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+a {
+    color: red;
+    /*Без подчеркиваней*/
+    text-decoration: none;
+    text-transform: uppercase;
+    align-content: center;
+    /*Устанавливаем шрифт*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+._header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 2.7px;
+    font-size: 18px;
+    padding: 26px;
+    width: 620px;
+    height: 15px;
+    position: relative;
+    left: 21%;
+}
+
+        /*Image*/
+
+._background {
+    background: url("myphoto.png");
+    background-size: cover;
+    left: 0;
+    height:  780px;
+}
+
+        /*Title*/
+
+.title {
+    /*опускаем текст вниз */
+    padding: 10px;
+}
+
+.Title_2 {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.another_text {
+    padding-top: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;font-size: 16px;
+    /*межстрочный интервал*/
+    line-height: 26px;
+    left: 68px;
+    top:100px;
+    letter-spacing: 1px;
+}
+
+        /*Button*/
+
+._button {
+    /*убираем границу*/
+    border: 0;
+    padding: 14px 40px;
+    /*закруглить края*/
+    border-radius: 3px;
+
+    font-size: 12px;
+    color: white;
+    /*красивый курсор при наведении*/
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+._button {
+    background-color: red;
+}
+
+.ambit {
+    text-align: center;
+    padding: 40px;
+}
+
+.end {
+    padding: 75px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    font-family: 'Montserrat', sans-serif;
+}
